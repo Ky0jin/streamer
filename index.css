@@ -1,0 +1,138 @@
+body {
+    color: rgb(255, 255, 255);
+    background-image: url(https://investnews.com.br/wp-content/uploads/2022/02/2022-01-31T204016Z_1_LYNXMPEI0U0ZB_RTROPTP_4_FINTECH-CRYPTO-TURKEY-BITCI-scaled.jpg);
+}
+
+nav {
+    margin-top: -0.6rem;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(255, 215, 0);
+    background-color: rgba(0, 0, 0, 0.452);
+    border-bottom: 1px solid rgba(190, 7, 7, 0.8);
+}
+
+ul {
+    background-color: rgba(0, 0, 0, 0.452);
+}
+
+video {
+    width: 356px;
+    height:200px;
+}
+
+a {
+    color: rgb(255, 215, 0);
+}
+
+h1 {
+    color: rgb(255, 215, 0);
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.logo {
+    width: 100px;
+}
+
+.animes, .filmes, .series {
+    margin-top: -1.8rem;
+    background-color: rgba(0, 0, 0, 0.732);
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+
+.animes div, .filmes div, .series div {
+    margin: 1rem;
+}
+
+.tamanho {
+    width: 185px;
+}
+
+.slider input {
+    display:none;
+}
+
+.slider label {
+    background-color: rgb(255, 0, 0);
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height:10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+
+.slider li:nth-child(4) label {
+    left: 100px;
+}
+
+.slider {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 50%;
+    height: 600px;
+    margin: auto;
+    position: relative;
+}
+
+.slider li {
+    display:block;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    width: 100%;
+}
+
+.slider img {
+    margin: auto;
+    height:100%;
+    width: 100%;
+    vertical-align: top;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.busca {
+    border: solid 1px gold;
+    border-radius: 15px;
+    width: 260px;
+    height: 32px;
+}
+
+.busca input { 
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:100%;
+    width:100%;
+}

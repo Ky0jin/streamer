@@ -1,0 +1,58 @@
+
+body {
+    background-image: url(https://investnews.com.br/wp-content/uploads/2022/02/2022-01-31T204016Z_1_LYNXMPEI0U0ZB_RTROPTP_4_FINTECH-CRYPTO-TURKEY-BITCI-scaled.jpg);
+    color: white;
+}
+
+a {
+    color: rgb(255, 215, 0);
+}
+
+article {
+    background-color: rgba(27, 22, 22, 0.754);
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+h3 {
+    width: 700px;
+}
+
+nav {
+    margin-top: -0.6rem;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(255, 215, 0);
+    background-color: rgba(0, 0, 0, 0.452);
+    border-bottom: 1px solid rgba(190, 7, 7, 0.8);
+}
+
+.sinopse {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.busca {
+    border: solid 1px black;
+    border-radius: 15px;
+    width: 260px;
+    height: 32px;
+}
+
+.busca input { 
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:100%;
+    width:100%;
+}
+
+.logo {
+    width: 100px;
+}
