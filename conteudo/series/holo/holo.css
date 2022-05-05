@@ -3,8 +3,14 @@ video {
 }
 
 body {
-    background-image: url(https://investnews.com.br/wp-content/uploads/2022/02/2022-01-31T204016Z_1_LYNXMPEI0U0ZB_RTROPTP_4_FINTECH-CRYPTO-TURKEY-BITCI-scaled.jpg);
+    background: rgb(201,3,3);
+    background: linear-gradient(274deg, rgba(201,3,3,1) 21%, rgba(0,0,0,1) 95%);
     color: white;
+}
+
+div img {
+    width: 185px;
+    height: 278px;
 }
 
 a {
